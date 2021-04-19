@@ -1,0 +1,240 @@
+.map-container {
+    display: inline-block;
+    /* align-items: center; */
+}
+
+.map-sidebar {
+    margin: 0 auto;
+    min-width: 240px;
+}
+
+#legend-container {
+    width: 100%;
+    height: 3em;
+}
+
+.selector-container {
+    width: 100%;
+    display: block;
+    padding-bottom: 2em;
+}
+
+#overlayDrop {
+    float: left;
+}
+
+body {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    padding: 2em;
+    letter-spacing: -0.011em;
+    font-family: 'Inter var', sans-serif;
+    font-size: 16px;
+}
+
+svg {
+    margin-top: 10px;
+}
+
+.wrapper {
+    position: relative;
+}
+
+/* .tract:hover {
+    fill: cornflowerblue;
+} */
+
+circle {
+    cursor: pointer;
+}
+
+.tooltip {
+    position: absolute;
+    font-size: 1em;
+    width:  auto;
+    height: auto;
+    pointer-events: none;
+    background-color: white;
+    padding: 0.6em 1em;
+    border-radius: 10px;
+    font-family: sans-serif;
+    transition: all 0.2s ease-out;
+    z-index: 10;
+    text-align: center;
+    }
+
+.tract {
+    transition: all 1.25s ease-out;
+}
+
+rect {
+    transition: all 1.25s ease-out;
+}
+
+
+label,
+input[type="checkbox"] + span,
+input[type="checkbox"] + span::before
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+ 
+label *,
+label *
+{
+    cursor: pointer;
+}
+ 
+input[type="checkbox"]
+{
+    opacity: 0;
+    position: absolute;
+}
+ 
+input[type="checkbox"] + span
+{
+    /* font: normal 11px/14px Arial, Sans-serif; */
+    color: #333;
+    font-size: 1em;
+}
+ 
+label:hover span::before,
+label:hover span::before
+{
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 2px #ccc;
+    box-shadow: 0 0 5px #ccc;
+}
+ 
+label:hover span,
+label:hover span
+{
+    color: #000;
+}
+ 
+input[type="checkbox"] + span::before
+{
+    content: "";
+    width: 1.1em;
+    height: 1.1em;
+    margin: 0 5px 0 10px;
+    border: solid 1px #a8a8a8;
+    line-height: 14px;
+    text-align: center;
+    transition: all .5s ease;
+    padding-top: 3px;
+}
+ 
+input[type="checkbox"] + span::before
+{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+ 
+input[type="checkbox"]:checked + span::before
+{
+    content: "\2714";
+    font-size: 1em;
+}
+
+input[id="cbHort"] + span::before
+{
+    border: solid 1.5px blue;
+    background: white;
+}
+
+input[id="cbHort"]:checked + span::before
+{
+    color: white;
+    background: blue;
+}
+
+input[id="cbFoodWIse"] + span::before
+{
+    border: solid 1.5px red;
+    background: white;
+}
+
+input[id="cbFoodWIse"]:checked + span::before
+{
+    color: white;
+    background: red;
+}
+
+input[id="cbCommDev"] + span::before
+{
+    border: solid 1.5px orange;
+    background: white;
+}
+
+input[id="cbCommDev"]:checked + span::before
+{
+    color: white;
+    background: orange;
+}
+
+input[id="cb4H"] + span::before
+{
+    border: solid 1.5px gold;
+    background: white;
+}
+
+input[id="cb4H"]:checked + span::before
+{
+    color: white;
+    background: gold;
+}
+
+input[id="cbUrbanAg"] + span::before
+{
+    border: solid 1.5px green;
+    background: white;
+}
+
+input[id="cbUrbanAg"]:checked + span::before
+{
+    color: white;
+    background: green;
+}
+
+input[id="cbHWB"] + span::before
+{
+    border: solid 1.5px black;
+    background: white;
+}
+
+input[id="cbHWB"]:checked + span::before
+{
+    color: white;
+    background: black;
+}
+
+input[id="cbYouthDev"] + span::before
+{
+    border: solid 1.5px purple;
+    background: white;
+}
+
+input[id="cbYouthDev"]:checked + span::before
+{
+    color: white;
+    background: purple;
+}
+
+input[id="cbMarkets"] + span::before
+{
+    border: solid 1.5px #00bcd4;
+    background: white;
+}
+
+input[id="cbMarkets"]:checked + span::before
+{
+    color: white;
+    background: #00bcd4;
+}
+
+
+

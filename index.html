@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./styles.css"></link>
+        <title>MKE Extension Map</title>
+    </head>
+    <body>
+        <div class="map-container">
+            <div class="selector-container">
+                <select id="overlayDrop">
+                    <option value="aidTotal"># Receiving Assistance</option>
+                    <option value="incomeMedian">Household Median $</option>
+                    <option value="ageMedianBoth">Median Age</option>
+                    <option value="langSpan">% Spanish Speaking</option>
+                    <option value="povPercBelow">% Below Poverty</option>
+                    <option value="uninsuredTotal"># Uninsured</option>
+                    <option value="disTotal"># Reporting a Disability</option>
+                </select>
+                <label class="checkbox">
+                    <input type="checkbox" class="cb" id="cbFoodWIse" value="foodWIse" checked>
+                    <span>FoodWIse</span>
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" class="cb" id="cbCommDev" value="commDev" checked>
+                    <span>Comm. Dev.</span>
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" class="cb" id="cbUrbanAg" value="urbanAg" checked>
+                    <span>Urban Ag.</span>
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" class="cb" id="cb4H" value="fourH" checked>
+                    <span>4-H</span>
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" class="cb" id="cbHort" value="hort" checked>
+                    <span>Hort.</span>
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" class="cb" id="cbHWB" value="hwb" checked>
+                    <span>HWB</span>
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" class="cb" id="cbYouthDev" value="posYouthDev" checked>
+                    <span>Youth Dev.</span>
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" class="cb" id="cbMarkets" value="farmers" checked>
+                    <span>Markets</span>
+                </label>
+                <button class="municipalOverlayButton">Supervisory Districts</button>
+            </div>
+            <div id="wrapper" class="wrapper"></div>
+        </div>
+        <div class="map-sidebar">
+            <div id="legend-container"></div>
+            <h2 id="overlayInfoTitle">Overlay Info</h2>
+            <p>lorem</p>
+        </div>
+
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="./data-functions.js"></script>
+        <script src="./color-functions.js"></script>
+        <script src="./legend-functions.js"></script>
+        <script src="./draw-map.js"></script>
+    </body>
+</html>
