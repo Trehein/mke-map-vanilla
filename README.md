@@ -10,3 +10,5 @@ Features
 - Additional Boundary Overlays
 
 edit in mergeConflict
+
+- New content in readme
