@@ -10,3 +10,5 @@ Features
 - Additional Boundary Overlays
 
 Changes in main to cause a conflict
+
+- New content in readme
