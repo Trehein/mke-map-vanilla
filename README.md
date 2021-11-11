@@ -8,3 +8,5 @@ Features
 - Data Interaction
 - Transitioning Map Overlays
 - Additional Boundary Overlays
+
+edit in mergeConflict
