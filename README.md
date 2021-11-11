@@ -9,5 +9,6 @@ Features
 - Transitioning Map Overlays
 - Additional Boundary Overlays
 
+edit in mergeConflict
 
 - New content in readme
