@@ -10,5 +10,8 @@ Features
 - Additional Boundary Overlays
 
 Changes in main to cause a conflict
+edit in mergeConflict
 
 - New content in readme
+- Another change to main that must be merged
+
